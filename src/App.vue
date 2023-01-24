@@ -1,6 +1,5 @@
 <script setup>
 import Header from './components/Header.vue'
-import Profile from './components/Profile.vue'
 import SeatingChart from './components/SeatingChart.vue'
 import FoodMenu from './components/FoodMenu.vue'
 import TimeSchedule from './components/TimeSchedule.vue'
@@ -10,7 +9,6 @@ import Greeting from './components/Greeting.vue'
 
 <template>
   <Header />
-  <Profile />
   <SeatingChart />
   <FoodMenu />
   <TimeSchedule />
