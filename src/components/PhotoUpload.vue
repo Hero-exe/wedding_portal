@@ -1,39 +1,4 @@
-<script setup>
-  import gapi from 'gapi-client'
-
-  const albumId = ''
-
-  const uploadImage = async (event) => {
-    const file = event.target.files[0];
-      const reader = new FileReader();
-      reader.readAsArrayBuffer(file);
-      reader.onloadend = async () => {
-        const arrayBuffer = reader.result;
-        const response = await gapi.client.photoslibrary.uploads.create({
-          albumId: albumId,
-          newMediaItem: {
-            description: 'Test image.',
-            simpleMediaItem: {
-              fileName: file.name
-            }
-          },
-          data: arrayBuffer
-        });
-        const uploadToken = response.result.uploadToken;
-        const uploadResponse = await gapi.client.photoslibrary.mediaItems.upload({
-          albumId: albumId,
-          uploadToken: uploadToken,
-          newMediaItem: {
-            description: 'Test image.',
-            simpleMediaItem: {
-              fileName: file.name,
-              uploadToken: uploadToken
-            }
-          }
-        });
-        console.log('Image uploaded successfully: ', uploadResponse)
-      }
-    }
+<script>
 
 </script>
 

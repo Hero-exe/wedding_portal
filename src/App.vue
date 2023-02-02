@@ -12,7 +12,7 @@ import Greeting from './components/Greeting.vue'
   <SeatingChart />
   <FoodMenu />
   <TimeSchedule />
-  <PhotoUpload />
+  <!-- <PhotoUpload /> TODO:UPLOAD機能を作るならFirestrageを使う -->
   <Greeting />
 </template>
 
