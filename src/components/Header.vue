@@ -4,9 +4,11 @@
 
 <template>
     <div class="h-screen w-screen flex justify-center items-center bg-white">
-    <h1 className="text-2xl font-bold text-black">
-      Welcome our wedding
-    </h1>
+    <div class="relative h-96 w-96">
+      <img src="../assets/svg/WelcomeText.svg" alt="Logo" class="absolute">
+      <img src="../assets/svg/Sakura.svg" alt="Logo" class="absolute">
+      <img src="../assets/svg/Eda.svg" alt="Logo" class="absolute">
+    </div>
   </div>
 </template>
 
