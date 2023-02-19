@@ -8,16 +8,28 @@ import Table from '../components/part/Table.vue'
     <img src="../assets/png/Seatingchart.png" alt="Logo" class="h-4/6 w-4/6">
     <Takasago class="h-1/6 w-3/4"></Takasago>
     <div class="flex flex-row">
-      <Table label="A" class="mr-7"></Table>
-      <Table label="B" class="ml-7"></Table>
+      <div class="mr-7 relative">
+        <img src="../assets/png/Atable.png" alt="Logo" class="h-32 w-32">
+      </div>
+      <div class="ml-7 relative">
+        <img src="../assets/png/Btable.png" alt="Logo" class="h-32 w-32">
+      </div>
     </div>
     <div class="flex flex-row mt-7">
-      <Table label="C" class="mr-7"></Table>
-      <Table label="D" class="ml-7"></Table>
+      <div class="mr-7 relative">
+        <img src="../assets/png/Ctable.png" alt="Logo" class="h-32 w-32">
+      </div>
+      <div class="ml-7 relative">
+        <img src="../assets/png/Dtable.png" alt="Logo" class="h-32 w-32">
+      </div>
     </div>
     <div class="flex flex-row mt-7 mb-7">
-      <Table label="E" class="mr-7"></Table>
-      <Table label="F" class="ml-7"></Table>
+      <div class="mr-7 relative">
+        <img src="../assets/png/Etable.png" alt="Logo" class="h-32 w-32">
+      </div>
+      <div class="ml-7 relative">
+        <img src="../assets/png/Ftable.png" alt="Logo" class="h-32 w-32">
+      </div>
     </div>
     <img src="../assets/png/Aseat.png" alt="Logo" class="h-5/6 w-5/6">
     <img src="../assets/png/Bseat.png" alt="Logo" class="h-5/6 w-5/6">
