@@ -1,18 +1,19 @@
 <script setup>
   import { defineProps } from 'vue';
 
-  defineProps({
-  label: {
-    type: String,
-    default: "label"
-  }
-})
+  const props = defineProps({
+    label: {
+      type: String,
+      default: "label"
+    }
+  })
+
+  const img = `../../src/assets/png/${props.label}table.png`
 </script>
 
 <template>
   <div class="relative">
-    <img src="../../assets/png/TableDesign.png" alt="Logo" class="h-32 w-32">
-    <h1 class="text-7xl font-bold text-black absolute top-1/2 left-2">{{ label }}</h1>
+    <img :src="img" alt="Logo" class="h-32 w-32">
   </div>
 </template>
 

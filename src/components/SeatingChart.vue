@@ -1,7 +1,6 @@
 <script setup>
 import Takasago from '../assets/svg/TakasagoDesign.svg?component'
 import Table from '../components/part/Table.vue'
-import SeatName from '../components/part/SeatName.vue'
 </script>
 
 <template>

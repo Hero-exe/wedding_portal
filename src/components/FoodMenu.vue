@@ -4,9 +4,7 @@
 
 <template>
     <div class="h-screen w-screen flex justify-center items-center bg-light-orange">
-    <h1 className="text-2xl font-bold text-black">
-      Menu
-    </h1>
+      <img src="../assets/png/menu.png" alt="Logo" class="h-4/5">
   </div>
 </template>
 
