@@ -29,8 +29,8 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <template>
-    <div class="h-screen w-screen flex justify-center items-center bg-white cherry-blossom-container">
-    <div class="relative h-96 w-96 z-10">
+    <div class="h-screen w-screen flex justify-center items-center bg-light-cherry cherry-blossom-container">
+    <div class="relative h-96 w-96 z-10 fadeIn">
       <img src="../assets/svg/WelcomeText.svg" alt="Logo" class="absolute">
       <img src="../assets/svg/Sakura.svg" alt="Logo" class="absolute">
       <img src="../assets/svg/Eda.svg" alt="Logo" class="absolute">
@@ -87,4 +87,22 @@ window.addEventListener('DOMContentLoaded', () => {
     transform: rotate(3000deg);
   }
 }
+
+.fadeIn{
+animation-name:fadeInAnime;
+animation-duration:6s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeInAnime{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 </style>

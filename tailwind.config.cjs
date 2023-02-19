@@ -11,6 +11,7 @@ module.exports = {
         'light-orange': '#ffdbc9',
         'light-pink': '#fff0f5',
         'light-snow': '#fffafa',
+        'light-cherry': '#feeeed',
       }
     },
   },
