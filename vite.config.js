@@ -4,7 +4,7 @@ import svgLoader from 'vite-svg-loader'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'wedding_portal',
+  base: process.env.GITHUB_PAGES ? 'wedding_portal' : './',
   plugins: [
     vue(),
     svgLoader({ defaultImport: 'component' })
