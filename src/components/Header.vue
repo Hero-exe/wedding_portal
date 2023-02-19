@@ -30,12 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 <template>
     <div class="h-screen w-screen flex justify-center items-center bg-light-cherry cherry-blossom-container">
-    <div class="relative h-96 w-96 z-10 fadeIn">
-      <img src="../assets/svg/WelcomeText.svg" alt="Logo" class="absolute">
-      <img src="../assets/svg/Sakura.svg" alt="Logo" class="absolute">
-      <img src="../assets/svg/Eda.svg" alt="Logo" class="absolute">
+      <img src="../assets/png/WelcomeMessage.png" alt="Logo" class="h-96 w-96 z-10 fadeIn">
     </div>
-  </div>
 </template>
 
 <style>
