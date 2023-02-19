@@ -1,6 +1,4 @@
 <script setup>
-  import { defineProps } from 'vue';
-
   const props = defineProps({
     label: {
       type: String,
@@ -8,7 +6,7 @@
     }
   })
 
-  const img = `../../src/assets/png/${props.label}table.png`
+  const img = `../../assets/png/${props.label}table.png`
 </script>
 
 <template>
