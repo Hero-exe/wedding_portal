@@ -4,7 +4,7 @@ import Table from '../components/part/Table.vue'
 </script>
 
 <template>
-  <div class="h-max w-screen flex justify-center items-center bg-light-yellow flex-col">
+  <div class="h-max w-screen flex justify-center items-center bg-light-honeydew flex-col">
     <img src="../assets/png/Seatingchart.png" alt="Logo" class="h-4/6 w-4/6">
     <Takasago class="h-1/6 w-3/4"></Takasago>
     <div class="flex flex-row">
