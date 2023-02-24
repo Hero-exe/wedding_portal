@@ -5,6 +5,7 @@ import FoodMenu from './components/FoodMenu.vue'
 import TimeSchedule from './components/TimeSchedule.vue'
 // import PhotoUpload from './components/PhotoUpload.vue'
 import Greeting from './components/Greeting.vue'
+import MoveButton from './components/part/MoveButton.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Greeting from './components/Greeting.vue'
   <TimeSchedule />
   <!-- <PhotoUpload /> TODO:UPLOAD機能を作るならFirestrageを使う -->
   <Greeting />
+  <MoveButton />
 </template>
 
 <style scoped>
