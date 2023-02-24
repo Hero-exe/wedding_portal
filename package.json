@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flowbite": "^1.6.3",
     "gapi-client": "^0.0.3",
     "vite-svg-loader": "^4.0.0",
     "vue": "^3.2.45"
