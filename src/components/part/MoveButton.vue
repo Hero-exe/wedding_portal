@@ -58,7 +58,7 @@ import 'flowbite'
   </div>
   <button type="button" data-dial-toggle="speed-dial-menu-dropdown" aria-controls="speed-dial-menu-dropdown"
     aria-expanded="false"
-    class="flex items-center justify-center ml-auto text-white bg-blue-700 rounded-full w-14 h-14 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
+    class="flex items-center justify-center ml-auto text-white bg-sky-300 rounded-full w-14 h-14 hover:bg-sky-500 dark:bg-sky-400 dark:hover:bg-sky-300 focus:ring-4 focus:ring-sky-300 focus:outline-none dark:focus:ring-sky-800">
     <svg aria-hidden="true" class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
     </svg>
