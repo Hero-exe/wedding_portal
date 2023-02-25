@@ -22,6 +22,5 @@ module.exports = {
         'light-white-smoke': '#f5f5f5',
       }
     },
-  },
-  plugins: [],
+  }
 }
