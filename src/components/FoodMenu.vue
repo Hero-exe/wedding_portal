@@ -17,7 +17,7 @@ window.addEventListener( 'scroll' ,() => {
 </script>
 
 <template>
-    <div class="h-screen w-screen flex justify-center items-center bg-light-yellow-pastel">
+    <div id="menuDisplay" class="h-screen w-screen flex justify-center items-center bg-light-yellow-pastel">
       <img src="../assets/png/menu.png" alt="Logo" class="h-5/6 scroll-right-foodmenu">
   </div>
 </template>

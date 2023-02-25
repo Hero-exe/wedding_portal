@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <template>
-    <div class="h-screen w-screen flex justify-center items-center bg-light-cherry cherry-blossom-container">
+    <div id="topDisplay" class="h-screen w-screen flex justify-center items-center bg-light-cherry cherry-blossom-container">
       <img src="../assets/png/WelcomeMessage.png" alt="Logo" class="h-96 w-96 z-10 fadeIn">
     </div>
 </template>

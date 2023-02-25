@@ -17,7 +17,7 @@ window.addEventListener( 'scroll' ,() => {
 </script>
 
 <template>
-    <div class="h-screen w-screen flex justify-center items-center bg-light-lotion">
+    <div id="greetingDisplay" class="h-screen w-screen flex justify-center items-center bg-light-lotion">
       <img src="../assets/png/Greeting.png" alt="Logo" class="h-5/6 scroll-right-greeting">
   </div>
 </template>
